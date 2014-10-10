@@ -36,7 +36,6 @@ group :development, :test do
 end
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
 end
 group :test do
   gem 'capybara'
@@ -45,4 +44,5 @@ group :test do
   gem 'selenium-webdriver'
 end
 
+gem 'figaro', '~>0.7.0'
 gem 'rails_12factor', group: :production
