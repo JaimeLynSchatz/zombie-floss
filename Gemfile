@@ -44,5 +44,5 @@ group :test do
   gem 'selenium-webdriver'
 end
 
-gem 'figaro', '~>0.7.0'
+gem 'figaro', '1.0'
 gem 'rails_12factor', group: :production
