@@ -10,24 +10,27 @@
   </head>
   <body>
 
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
-    <main role="main" class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <%= render 'layouts/messages' %>
-          <%= yield %>
+    <div class="jumbotron">
+
+      <header>
+        <%= render 'layouts/navigation' %>
+      </header>
+
+        <main role="main" class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <%= render 'layouts/messages' %>
+              <%= yield %>
+            </div>
+        </main>
+      
+      <footer class="container">
+        <div class="row">
+          <section class="col-lg-12">
+            Creative Commons License: Share and Share Alike, no Commercial Derivatives
+          </section>
         </div>
-    </main>
-
-    <footer class="container">
-      <div class="row">
-        <section class="col-lg-12">
-          Creative Commons License: Share and Share Alike, no Commercial Derivatives
-        </section>
-      </div>
-    </footer>
-
+      </footer>
+    </div>  <!-- end jumbotron -->
   </body>
 </html>

@@ -1,38 +1,39 @@
 <% content_for :title do %>Zombie FLOSS<% end %>
 <% content_for :description do %>Resources for the <strike>Zombie</strike> Open Source Survival Guide<% end %>
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="item active">
-      <%= link_to 'irc', irc_path <img src="http://lorempixel.com/1270/800/business/10"> %>
-      <div class="carousel-caption text-center">
-        <h4>Communication: IRC and Gitter</h4>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <%= link_to image_tag("http://lorempixel.com/1270/800/business/10"), page_path('irc') %>
+        <!-- <img src="http://lorempixel.com/1270/800/business/10">  -->
+        <div class="carousel-caption text-center">
+          <h4>Communication: IRC and Gitter</h4>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://lorempixel.com/1270/800/cats/2">
+        <div class="carousel-caption text-center">
+          <h4>Weapons: Git</h4>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://lorempixel.com/1270/800/cats/4">
+        <div class="carousel-caption text-center">
+          <h4>Shelter: GitHub</h4>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://lorempixel.com/1270/800/cats/6">
+        <div class="carousel-caption text-center">
+          <h4>Society: Cons and Meetups, incl. Seattle Hackers and Open Source Calendar</h4>
+        </div>
       </div>
     </div>
-    <div class="item">
-      <img src="http://lorempixel.com/1270/800/cats/2">
-      <div class="carousel-caption text-center">
-        <h4>Weapons: Git</h4>
-      </div>
-    </div>
-    <div class="item">
-      <img src="http://lorempixel.com/1270/800/cats/4">
-      <div class="carousel-caption text-center">
-        <h4>Shelter: GitHub</h4>
-      </div>
-    </div>
-    <div class="item">
-      <img src="http://lorempixel.com/1270/800/cats/6">
-      <div class="carousel-caption text-center">
-        <h4>Society: Cons and Meetups, incl. Seattle Hackers and Open Source Calendar</h4>
-      </div>
-    </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></a>
   </div>
-<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></a>
-</div>
