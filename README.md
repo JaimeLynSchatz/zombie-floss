@@ -1,5 +1,6 @@
 Zombie Floss
 ================
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/JaimeLynSchatz/zombie-floss?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
