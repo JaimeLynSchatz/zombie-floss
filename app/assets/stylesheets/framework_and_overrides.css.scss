@@ -38,11 +38,12 @@ main {
   background-color: #eee;
   //padding-bottom: 80px;
   width: 100%;
-  margin-top: 51px; // accommodate the navbar
-  }
+  margin-top: 15px; // accommodate the navbar
+}
+
 section {
   @extend .row;
-  margin-top: 20px;
+  //margin-top: 20px;
   }
 
 html, body {
@@ -50,7 +51,15 @@ html, body {
   width: 100%;
 }
 
+footer {
+  padding-top: 5px;
+}
+
 img {
-  max-width: 100%;
-  max-height: 80%;
+  width: 100%;
+  max-height: 100%;
+}
+
+.jumbotron {
+  height: 100%
 }
