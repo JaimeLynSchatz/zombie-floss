@@ -85,3 +85,9 @@ li {
 .jumbotron p {
   margin-bottom: 1px;
 }
+
+ul.ice li:before {
+    content: "✚ ";
+    color: red;
+    font-size: 1.1em;
+}
