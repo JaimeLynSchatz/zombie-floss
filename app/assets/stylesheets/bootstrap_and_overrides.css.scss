@@ -64,10 +64,24 @@ img {
   height: 100%
 }
 
+.snipp {
+  margin: 5px;
+  padding: 2px;
+
+}
+
 .code_font {
   background: black;
   color: white;
-  font-family: serif;
+  font-family: "Courier New";
   font-size: 1.2em;
   padding: 2px;
+}
+
+li {
+  list-style: none;
+}
+
+.jumbotron p {
+  margin-bottom: 1px;
 }
